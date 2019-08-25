@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enter</title>
+    <link href="res/css-f/img/V letter.png" rel="shortcut icon" type="image/png">
+    <link href="res/css-f/enter.css" rel='stylesheet' type='text/css'>
+	<!--Metadata-->
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+    <meta name="keywords" content="Sign In or Create an account">
+	<!--Scripts-->
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="res/scripts-c/easyResponsiveTabs.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$(document).ready(function () {
+	$('#horizontalTab').easyResponsiveTabs({
+	type: 'default',          
+	width: 'auto',
+	fit: true   // 100% fit in a container
+		});
+	});
+    </script>
+  </head>
+  <body>
+    <h1>Welcome to Vextre</h1>
+	<div class="main-content">
+	  <div class="sap_tabs">
+	    <div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+		    <ul>
+			  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Sign In</span></li>
+			  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Sign Up</span></li>  
+			</ul>
+            <!--Sign In-->			
+		    <div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+			  <div class="facts">
+				<div class="register">
+					<form action="#" method="POST">										
+						<input placeholder="Username" name="uname" type="text" required="true">									
+						<input placeholder="Password" name="password" type="password" required="true">										
+						<div class="enter">
+						  <input type="submit" value="Sign In"/>
+						</div>
+					</form>
+					<h3><a href="#"> Forgot your Password?</a></h3>
+				</div>
+			   </div>
+            </div>
+            <!--Sign Up-->
+			<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+			  <div class="facts">
+				<div class="register">
+					<form action="#" method="POST">	
+						<input placeholder="Username" name="uname" type="text" required="true">
+						<input placeholder="Email Address" name="email" type="email" required="true">
+		                <input placeholder="Password" name="password" type="password" required="true">	
+						<div class="smein">
+						<!--Requires validation-->
+					    <select name="gender" value="gender">
+						  <option selected value="none">Select Gender</option> 
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                        </select>
+						</div>
+						<!--Requires validation--><input placeholder="Day(Birthday)" name="day" type="text" required="true"><input placeholder="Month" name="month" type="text" required="true"><input placeholder="Year" name="year" type="year" required="true">
+						<div class="enter">
+						  <input type="submit" value="Create Account"/>
+						</div>
+					</form>
+				</div>
+			  </div>
+			</div>
+        </div>
+   	  </div>
+	</div> 
+	<!--Copyright-->
+   	<div class="copy-right">
+   	  <div class="wrap">
+		<p>&copy; 2016 Vextre Inc. All Rights Reserved</p>
+	  </div>
+	</div>
+  </body>
+</html>  
+		
+		
+		
+		
+		
+		
+		
+		
+		
