@@ -1,0 +1,20 @@
+body{
+    background-color: #33383F;
+}
+.styler{
+	width: 50%;
+	margin: auto;
+}
+#side{
+	position: absolute;
+	left: 250px;
+	right: 0px;
+}
+#btn{
+	height: 45px;
+	width: 70px;
+	border-radius: 10px;
+	background-color: rgba(217, 94, 0, 0.9);
+	cursor: pointer;
+	border: none;
+}
